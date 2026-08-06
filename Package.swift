@@ -7,13 +7,12 @@ let package = Package(
         .iOS("17.0")
     ],
     products: [
-        .executable(name: "HorasSamuel", targets: ["HorasSamuel"])
+        .executable(name: "HorasSamuelApp", targets: ["HorasSamuelApp"])
     ],
     targets: [
         .executableTarget(
-            name: "HorasSamuel",
-            path: ".",
-            exclude: ["Package.swift"]
+            name: "HorasSamuelApp",
+            path: "Sources/HorasSamuelApp"
         )
     ]
 )
