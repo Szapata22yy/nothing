@@ -3,15 +3,12 @@
   "platform": "ios",
   "github": {
     "owner": "Szapata22yy",
-    "repo": "https://github.com/Szapata22yy/nothing"
+    "repo": "nothing"
   },
-  "ios": {
-    "path": ".",
-    "scheme": "HorasSamuel",
-    "signing": false
+  "ios": {},
+  "flutter": {
+    "watch": {}
   },
-  "mobai": {
-    "url": "http://localhost:8686",
-    "device_id": ""
-  }
+  "reactNative": {},
+  "mobai": {}
 }
